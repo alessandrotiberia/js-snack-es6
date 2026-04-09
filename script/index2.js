@@ -40,10 +40,10 @@ for (let i = 0; i < squadre.length; i++) {
 // come creo nuovo array per inserire solo nomi e falli subiti? (push?)
 let nuovo_array = [];
 for (let i = 0; i < squadre.length; i++) {
-    let squadra = squadre[i];
-    nuovo_array.push({
-        nome: squadra.nome,
-        falliSubiti: squadra.falliSubiti
+    let squadra = squadre[i]; 
+    nuovo_array.push({ //inserisco in nuovo array oggetto con nome e falli subiti
+        nome: squadra.nome, // prendo nome da squadra
+        falliSubiti: squadra.falliSubiti // prendo falli subiti da squadra
     });
 }
 console.log(nuovo_array);
