@@ -9,14 +9,18 @@ Stampare a schermo la bici con peso minore.*/
 const bici = [
  {
     nome: "bici0", 
-    peso: 10
+    peso: 10,
 },
 {
     nome: "bici1",
-    peso: 20
+    peso: 20,
 },
 {
     nome: "bici2",
-    peso: 5 
+    peso: 5 ,
+},
+{
+    nome: "bici3",
+    peso: 15
 }
 ];
