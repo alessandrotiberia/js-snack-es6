@@ -5,7 +5,7 @@ Stampare a schermo la bici con peso minore.*/
 
 'use strict';
 
-
+//creato array oggetti bici
 const bici = [
  {
     nome: "bici0", 
