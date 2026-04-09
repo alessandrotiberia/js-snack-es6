@@ -37,4 +37,13 @@ for (let i = 0; i < squadre.length; i++) {
     //falli subiti random arrotondati a squadra
     squadre[i].falliSubiti = Math.floor(Math.random() * 100);
 }
-// come creo nuovo array per inserire solo nomi e falli subiti?
+// come creo nuovo array per inserire solo nomi e falli subiti? (push?)
+let nuovo_array = [];
+for (let i = 0; i < squadre.length; i++) {
+    let squadra = squadre[i];
+    nuovo_array.push({
+        nome: squadra.nome,
+        falliSubiti: squadra.falliSubiti
+    });
+}
+console.log(nuovo_array);
